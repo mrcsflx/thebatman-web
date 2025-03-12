@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+
+header {
+    background-image: url(../img/header_background.jpeg); /* Pone una imagen de fondo */
+    background-size: cover; /* Hace que la imagen cubra todo el encabezado */
+    background-position: center; /* Centra la imagen */
+    height: 625px; /* Define la altura del encabezado */
+    width: 100%; /* Hace que el encabezado ocupe todo el ancho */
+}
+  
+
+header h2{
+    text-align: center; /* Centra el texto */
+    color: white; /* Hace el texto sea blanco */
+    font-family: "preconnect", system-ui;
+    padding: 260px; 
+}
+main{
+    max-width: 550px; /*Dice el ancho del main */
+    padding: 0 20px;
+    margin: 0 auto; /* sirve para meter relleno */
+    font-family: "preconnect", system-ui;
+}
+
+main img {
+    font-family: "preconnect", system-ui;
+    max-width: 550px; /*Dice el ancho que debe ocupar en el main */
+    margin: 0 auto;
+}
