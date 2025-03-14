@@ -27,3 +27,48 @@ main img {
     max-width: 550px; /*Dice el ancho que debe ocupar en el main */
     margin: 0 auto;
 }
+main a{
+    font-family: "preconnect", system-ui;
+    color: red;
+    text-decoration: none;
+}
+
+footer {
+    font-family: "preconnect", system-ui;
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+}
+
+footer p{
+    font-family: "preconnect", system-ui;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mejoratexto {
+    font-family: "preconnect", system-ui;
+    font-family: Arial; 
+    font-size: 18px;
+    text-align: center;
+}
+
+.container {
+    font-family: "preconnect", system-ui;
+    display: flex;
+    width: 100%;
+}
+
+.column {
+    font-family: "preconnect", system-ui;
+    flex: 1;
+    padding: 10px;
+}
+
+.imagenmejora {
+    font-family: "preconnect", system-ui;
+    width: 80%;
+    height: 300px;
+    text-align: center;
+}
